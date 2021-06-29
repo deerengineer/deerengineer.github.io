@@ -15,9 +15,11 @@
 			position: absolute;
 			top: 100px;
 			left: 0px;  /* <--- Change me! */
+			
 		}
 		.board{
 			height: 100vh;
+			background-image: url("https://cdn.discordapp.com/attachments/757624127887638690/859378770522669056/philly.png");
 		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -63,6 +65,7 @@
 			// TODO 2 - Variable declarations 
 			var positionX = 0;
 			var points = 0;
+			var speed = 10;
 
 			
 			/* 
@@ -71,8 +74,14 @@
 			turn it around! 
 			*/
 			function update() {
-				positionX = positionX + 10;
+				positionX = positionX + speed;
 				moveBoxTo(positionX);
+				if(positionX > boardWidth){
+					speed = speed * -1;
+				}
+				if(positionX < 0){
+					speed = speed * -1;
+				}
 
 
 			};
@@ -84,9 +93,15 @@
 			*/
 			function handleBoxClick() {
 				positionX = 0;
-				points = points + 1
+				points = points + 1;
+				speed = speed + 3;
 				changeBoxText(points);
-				
+				if(speed >= 0){
+					speed = speed + 3;
+				}
+				if(speed < 0){
+					speed = speed - 3;
+				}
 
 			};
 		})();

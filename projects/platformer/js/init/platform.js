@@ -42,6 +42,16 @@
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
+        //createPlatform(400, 460);           
+        createPlatform(300, 200, 0.3);       
+        createPlatform(200, 600, 0.6, 10); 
+        createPlatform(400, 535, 0.6);  
+        createPlatform(400, 385, 0.6);
+        createPlatform(660, 460, 0.5);
+        createPlatform(170, 320, 0.5);
+        createPlatform(400, 550, 0.2, 10);
+        //see if you can figure out how to get all the collectables without dying.
+    
     }
     platform.init = init;
 })(window);

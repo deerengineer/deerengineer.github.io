@@ -43,6 +43,12 @@
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
+        createCollectable(type.max, 300, 350, 6, 0.7);
+        createCollectable(type.kennedi, 600, 170, 6, 0.7);
+        createCollectable(type.grace, 500, 600, 6, 0.7);
+        createCollectable(type.db, 700, 350, 6, 0.7)
+    
+    
     };
     collectable.init = init;
 })(window);

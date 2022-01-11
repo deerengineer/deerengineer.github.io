@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Project: Event invite"</title>
+        <style>
+            .wrecked {
+                font-family: cursive;
+            }
+            .literallyeverythingsucks {
+                background-color: black;
+                color: white;
+                font-family: fantasy;
+                
+            }
+            .caraccident {
+                color: red;
+                font-weight: bold;
+            }
+            .death {
+                color: yellow;
+                font-size: 35px;
+                margin-top: 10px;
+                margin-bottom: -19px;
+            }
+            .violence {
+                color: yellow;
+                font-size: 20px;
+                
+            }
+        </style>
+    </head>
+    <body class = "literallyeverythingsucks">
+        
+        <h1 class="wrecked">You're invited!</h1>
+        <h2 class="wrecked">To your own funeral</h2>
+        
+        <p class="caraccident">The details:</p>
+        <ul>
+            <li>You died.</li>
+            <li>It was probably either a <span class="caraccident">car crash</span> or a <span class="caraccident">heart attack</span>, maybe both.</li>
+            <li>Have you heard the news that you're <span class="caraccident">dead</span></li>
+            <li><span class="caraccident">No one</span> ever had much nice to say</li>
+            <li>I think they <span class="caraccident">never liked you</span> anyway</li>
+            <li>Oh, take me from the <span class="caraccident">hospital bed</span></li>
+            <li>Wouldn't it be grand? It ain't exactly what you planned</li>
+            <li>And wouldn't it be great if we were <span class="caraccident">dead?</span></li>
+            <li>Yes, I did just get lazy and start writing the lyrics to a My Chemical Romance song.</li>
+        </ul>
+        <p class="death">What did you expect from me?</p>
+        <p class ="violence">What did you expect from me...</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>Context: A project I didn't feel like doing.</p>
+    </body>
+</html>
